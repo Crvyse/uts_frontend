@@ -1,0 +1,27 @@
+/* footer.css */
+
+.kaki {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1c1c1c, #333333);
+  color: #f0f0f0;
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  text-align: center;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #555555;
+}
+
+.kaki p {
+  margin: 0;
+  letter-spacing: 1px;
+  color: #d3d3d3;
+  transition: color 0.3s ease;
+}
+
+.kaki p:hover {
+  color: #ffffff;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+}

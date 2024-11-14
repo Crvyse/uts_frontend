@@ -1,0 +1,48 @@
+/* header.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.headerlogo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.headerlogo img {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.headerlogo img:hover {
+  transform: scale(1.1);
+}
+
+.headerlogo h1 {
+  font-size: 1.8em;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.tengah {
+  text-align: center;
+}
+
+.tengah h1 {
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
